@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ............................................................... */
+/* header code */
+.header{
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+}
+.headerList{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.headerList li{
+    margin:0px 15px;
+    color: white;
+    font-weight:lighter;
+}
+/* ..................................................................... */
+/* section1 { list of products}code */
+
+.section1{
+    top: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.listOfProducts{
+    margin: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listOfProducts div{
+    margin: 5px 15px;
+}
+.div1 img{
+    margin-top: 30px;
+}
+/* ............................................................................. */
+/* section 2 {product images} code */
+.section2{
+    width: 100vw;
+}
+.s2d1{
+    margin-bottom: 20px;
+}
+.s2d1sub1{
+   width: 100vw;
+   margin-top: 30px;
+ 
+}
+
+.big{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background: linear-gradient(to right, #30CFD0 20%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.s2d1sub2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* div2 */
+.s2d2{
+    padding-top: 100px;
+}
+.s2d2sub2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* div3 */
+.s2d3{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 20px;
+}
+.s2d3sub2{
+    margin-left: 100px;
+}
+/* div4 */
+.s2d4{
+    background-image: url(./images/s2d4bgImage.png);
+    height: 800px;
+    background-repeat: no-repeat;
+background-size: cover;
+margin: 20px;
+
+}
+.s2d4 div{
+    padding-top: 0px;
+   
+}
+/* ........................................... */
+.productComparison{
+    margin-top: 80px;
+
+}
+.comparingHeading{
+    font-weight: bold;
+    font-size: 30px;
+}
+.pcItems{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    /* align-items: center; */
+}
+
+div h3{
+    display:flex;
+    justify-content: center;
+
+}
+
+.btnn{
+    background-color: rgb(41, 41, 211);
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: none;
+    color: white;
+}
+
+/* .....................................................section4 */
+/* week3 code */
+.section4{
+    margin-top: 50px;
+    background-color: rgb(233, 230, 230);
+    padding-bottom: 20px;
+}
